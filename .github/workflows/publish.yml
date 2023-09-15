@@ -1,0 +1,28 @@
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - '*.md'
+permissions:
+  contents: write
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    name: Run the action on a test graph and publish
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Build graph's SPA
+        uses: logseq/publish-spa@feat/db
+        with:
+          graph-directory: .
+          theme-mode: dark
+          version: 963831189dcc16b2de4c780e987bd48d4e7f6aba
+
+      - name: add a nojekyll file # to make sure asset paths are correctly identified
+        run: touch $GITHUB_WORKSPACE/www/.nojekyll
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: www
