@@ -2,5 +2,15 @@
     display: none
 }
 .cp__header-left-menu {
-    display:none!important
+    display:none !important
+}
+/* Move left header icons to the right */
+.cp__header {
+    justify-content: flex-end;
+}
+.cp__header>.l {
+    min-width: unset;
+}
+.cp__header>.r {
+    flex: 0 0 auto;
 }
