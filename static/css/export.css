@@ -14,3 +14,11 @@
 .cp__header>.r {
     flex: 0 0 auto;
 }
+/* Make properties look clickable */
+.ls-properties-area .property-key a {
+    color: var(--ls-link-ref-text-color);
+}
+/* Make tags look clickable */
+a.tag {
+    color: var(--ls-link-ref-text-color);
+}
