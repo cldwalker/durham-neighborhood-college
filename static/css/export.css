@@ -22,3 +22,8 @@
 a.tag {
     color: var(--ls-link-ref-text-color);
 }
+/* Make nav link look clickable */
+.page-add-tags a.fade-link {
+  color: var(--ls-link-ref-text-color);
+  opacity: 1;
+}
