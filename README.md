@@ -9,7 +9,7 @@ learn more about this graph.
 ## Development
 
 There are a couple https://github.com/logseq/nbb-logseq scripts in script/,
-mostly for one-off scripts to fix some of the schema.org data. Before using
+mostly one-off scripts to fix some schema.org data or invalid data. Before using
 these scripts, you'll need to have installed nodeJS,
 [babashka](https://github.com/babashka/babashka#installation) and
 [clojure](https://clojure.org/). With those installed, install deps with `yarn
