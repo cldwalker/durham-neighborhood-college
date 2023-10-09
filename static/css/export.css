@@ -25,7 +25,8 @@ a.tag {
     color: var(--ls-link-ref-text-color);
     /* Emphasize tags like dev-theme does */
     border: 2px solid currentColor;
-
+    /* Override flow-nord messing with case */
+    text-transform: none;
 }
 /* Make nav link look clickable */
 .page-add-tags a.fade-link {
