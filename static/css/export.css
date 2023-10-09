@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/custom.css");
+
 #left-sidebar {
     display: none
 }
@@ -18,9 +20,12 @@
 .ls-properties-area .property-key a {
     color: var(--ls-link-ref-text-color);
 }
-/* Make tags look clickable */
 a.tag {
+    /* Make tags look clickable */
     color: var(--ls-link-ref-text-color);
+    /* Emphasize tags like dev-theme does */
+    border: 2px solid currentColor;
+
 }
 /* Make nav link look clickable */
 .page-add-tags a.fade-link {
