@@ -35,7 +35,7 @@
         blocks-to-update (d/q query @conn)
         ;; update
         url-uuid (or (:block/uuid (d/entity @conn [:block/name "url"]))
-                   (throw (ex-info "No :db/id for TODO" {})))
+                   (throw (ex-info "No :db/id for url" {})))
         update-tx (mapv (fn [[eid props url]]
                           (let [url' (string/replace-first url #"_Class$" "")]
                             ;; (println url "->" url')
