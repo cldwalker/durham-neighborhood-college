@@ -2,7 +2,7 @@
   "This script syncs any changes to schema.org class + property descriptions.
   Changes can happen from schema.org's latest data export or from changes in how
   descriptions are parsed"
-  (:require [logseq.tasks.db-graph.persist-graph :as persist-graph]
+  (:require [logseq.outliner.cli.persist-graph :as persist-graph]
             [logseq.db.property :as db-property]
             [logseq.db.sqlite.util :as sqlite-util]
             [logseq.db.sqlite.cli :as sqlite-cli]

@@ -2,7 +2,7 @@
   "This script deletes empty blocks that had no :block/left or :block/parent
    attributes. This was useful to delete property values for multi-line :default properties
    since they don't delete currently and the implementation changed"
-  (:require [logseq.tasks.db-graph.persist-graph :as persist-graph]
+  (:require [logseq.outliner.cli.persist-graph :as persist-graph]
             [logseq.db.sqlite.cli :as sqlite-cli]
             [logseq.db.sqlite.db :as sqlite-db]
             [datascript.core :as d]

@@ -2,7 +2,7 @@
   "This script sets the exclude-from-graph-view property for all non-journal pages
   before the given timestamp. This is useful for creating graph views that don't
   include initial seed data e.g. graphs that are seeded with schema.org ontology"
-  (:require [logseq.tasks.db-graph.persist-graph :as persist-graph]
+  (:require [logseq.outliner.cli.persist-graph :as persist-graph]
             [logseq.db.sqlite.cli :as sqlite-cli]
             [logseq.db.sqlite.db :as sqlite-db]
             [datascript.core :as d]

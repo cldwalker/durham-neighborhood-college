@@ -1,6 +1,6 @@
 (ns fix-renamed-class-urls
   "This script fixes schema.org renamed class urls to drop the incorrect '_Class' suffix"
-  (:require [logseq.tasks.db-graph.persist-graph :as persist-graph]
+  (:require [logseq.outliner.cli.persist-graph :as persist-graph]
             [logseq.db.sqlite.cli :as sqlite-cli]
             [logseq.db.sqlite.db :as sqlite-db]
             [datascript.core :as d]

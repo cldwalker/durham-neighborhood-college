@@ -1,6 +1,6 @@
 (ns fix-block-timestamps
   "This script fixes dummy blocks not having timestamps"
-  (:require [logseq.tasks.db-graph.persist-graph :as persist-graph]
+  (:require [logseq.outliner.cli.persist-graph :as persist-graph]
             [logseq.db.sqlite.cli :as sqlite-cli]
             [logseq.db.sqlite.db :as sqlite-db]
             [logseq.db.sqlite.util :as sqlite-util]

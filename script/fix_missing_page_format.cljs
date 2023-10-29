@@ -1,6 +1,6 @@
 (ns fix-missing-page-format
   "This script fixes pages with missing :block/format"
-  (:require [logseq.tasks.db-graph.persist-graph :as persist-graph]
+  (:require [logseq.outliner.cli.persist-graph :as persist-graph]
             [logseq.db.sqlite.cli :as sqlite-cli]
             [logseq.db.sqlite.db :as sqlite-db]
             [datascript.core :as d]

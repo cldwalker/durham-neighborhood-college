@@ -1,7 +1,7 @@
 (ns fix-tagged-block-content
   "This script fixes tagged blocks with :block/content that still has its tags in it.
    We stopped including tags in content the week of Oct 9."
-  (:require [logseq.tasks.db-graph.persist-graph :as persist-graph]
+  (:require [logseq.outliner.cli.persist-graph :as persist-graph]
             [logseq.db.sqlite.cli :as sqlite-cli]
             [logseq.db.sqlite.db :as sqlite-db]
             [datascript.core :as d]
