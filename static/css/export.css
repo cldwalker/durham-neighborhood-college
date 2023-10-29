@@ -1,5 +1,3 @@
-@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/custom.css");
-
 #left-sidebar {
     display: none
 }
@@ -25,8 +23,7 @@ a.tag {
     color: var(--ls-link-ref-text-color);
     /* Emphasize tags like dev-theme does */
     border: 2px solid currentColor;
-    /* Override flow-nord messing with case */
-    text-transform: none;
+    padding: 2px;
 }
 /* Make nav link look clickable */
 .page-add-tags a.fade-link {
