@@ -18,7 +18,7 @@ jobs:
         with:
           graph-directory: .
           theme-mode: dark
-          version: ddf1043fb36a9f611f2ab5dd67106717014f7913
+          version: 803163be01c2fb3f4f31fe59bc7365a1a55476c2
 
       - name: add a nojekyll file # to make sure asset paths are correctly identified
         run: touch $GITHUB_WORKSPACE/www/.nojekyll
