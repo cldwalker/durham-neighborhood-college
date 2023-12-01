@@ -18,7 +18,7 @@ jobs:
         with:
           graph-directory: .
           theme-mode: dark
-          version: 4058b43d1ca9ee444e827017243e0745ab0c3a9d
+          version: cce2ba50ed5affa40a0458d304ca59adbb84f4e4
           accent-color: cyan
 
       - name: add a nojekyll file # to make sure asset paths are correctly identified
