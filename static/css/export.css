@@ -19,6 +19,8 @@
     color: var(--ls-link-ref-text-color);
 }
 a.tag {
+    border-radius: 0.25rem;
+    padding: 1px;
     /* Emphasize tags like dev-theme does */
     border: 2px solid currentColor;
 }
@@ -26,4 +28,16 @@ a.tag {
 .page-add-tags a.fade-link {
   color: var(--ls-link-ref-text-color);
   opacity: 1;
+}
+
+/* Give property area some definition. Copied from file graphs */
+.ls-properties-area:has(> div.property-pair), .ls-properties-area.class-properties {
+    margin: 4px 0;
+    padding: 4px 8px;
+    background-color: var(--ls-block-properties-background-color, #f0f8ff);
+    border-radius: 0.25rem;
+}
+/* Get rid of glitchy left border caused by background */
+.ls-block .ls-properties-area, .property-block-container {
+    border-left: 0px;
 }
