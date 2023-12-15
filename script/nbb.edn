@@ -1,9 +1,9 @@
 {:deps
  {logseq/db
   {:git/url "https://github.com/logseq/logseq"
-   :git/sha "803163be01c2fb3f4f31fe59bc7365a1a55476c2"
+   :git/sha "8eec034c612bb549000d06b94bf814f72b53c424"
    :deps/root "deps/db"}
   logseq/outliner
   {:git/url "https://github.com/logseq/logseq"
-   :git/sha "803163be01c2fb3f4f31fe59bc7365a1a55476c2"
+   :git/sha "8eec034c612bb549000d06b94bf814f72b53c424"
    :deps/root "deps/outliner"}}}
