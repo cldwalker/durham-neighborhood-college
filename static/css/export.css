@@ -32,9 +32,7 @@ a.tag {
 
 /* Give property area some definition. Copied from file graphs */
 .ls-properties-area:has(> div.property-pair), .ls-properties-area.class-properties {
-    margin: 4px 0;
-    padding: 4px 8px;
-    background-color: var(--ls-block-properties-background-color, #f0f8ff);
+    padding: 4px 4px;
     border-radius: 0.25rem;
 }
 /* Get rid of glitchy left border caused by background */
