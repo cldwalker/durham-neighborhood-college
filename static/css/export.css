@@ -34,6 +34,7 @@ a.tag {
 .ls-properties-area:has(> div.property-pair), .ls-properties-area.class-properties {
     padding: 4px 4px;
     border-radius: 0.25rem;
+    background-color: var(--ls-page-properties-background-color);
 }
 /* Get rid of glitchy left border caused by background */
 .ls-block .ls-properties-area, .property-block-container {
