@@ -1,14 +1,14 @@
 {:deps
  {logseq/db
   {:git/url "https://github.com/logseq/logseq"
-   :git/sha "c4f6873a58002b716d57ffd203864a00f6dca891"
+   :git/sha "b5a52edae8b04ddc63c319e193d707e2d1ddc52c"
    :deps/root "deps/db"}
   logseq/outliner
   {:git/url "https://github.com/logseq/logseq"
-   :git/sha "c4f6873a58002b716d57ffd203864a00f6dca891"
+   :git/sha "b5a52edae8b04ddc63c319e193d707e2d1ddc52c"
    :deps/root "deps/outliner"}
   logseq/common
   ;; TODO: Remove hack to workaround 'Unable to compare versions for logseq/common'
   {:git/url "https://github.com/logseq/logseq"
-   :git/sha "c4f6873a58002b716d57ffd203864a00f6dca891"
+   :git/sha "b5a52edae8b04ddc63c319e193d707e2d1ddc52c"
    :deps/root "deps/common"}}}

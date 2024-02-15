@@ -16,7 +16,7 @@
 }
 /* Make properties look clickable */
 .ls-properties-area .property-key a {
-    color: var(--ls-link-ref-text-color);
+    color: var(--ls-link-text-color);
 }
 a.tag {
     border-radius: 0.25rem;
@@ -35,6 +35,10 @@ a.tag {
     padding: 4px 4px;
     border-radius: 0.25rem;
     background-color: var(--ls-page-properties-background-color);
+}
+/* Add some space between property area border and block tag border */
+.ls-block .ls-properties-area:has(> div.property-pair) {
+    margin-top: 5px;
 }
 /* Get rid of glitchy left border caused by background */
 .ls-block .ls-properties-area, .property-block-container {
